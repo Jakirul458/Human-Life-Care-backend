@@ -21,6 +21,9 @@ const allowedOrigins = [
   "http://localhost:8080",
   "http://localhost:3000",
   "http://localhost:5173",
+  "https://hlcct.vercel.app",
+  "https://hlcct.org"
+
 ];
 
 app.use(cors({
