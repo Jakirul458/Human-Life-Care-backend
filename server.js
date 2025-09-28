@@ -8,6 +8,7 @@ const eventRoutes = require("./routes/eventRoutes");
 const galleryRoutes = require("./routes/galleryRoutes");
 const uploadRoutes = require("./routes/upload");
 const videoRoutes = require("./routes/video.routes");
+// const projectRoutes = require("./routes/projectRoutes");
 
 
 require("dotenv").config();
@@ -82,6 +83,7 @@ const startServer = async () => {
   app.use("/api/gallery", galleryRoutes);
   app.use("/api/upload", uploadRoutes);
   app.use("/api/videos",videoRoutes);
+  // app.use("/api/projects", projectRoutes);
 
   // -----------------------------
   // Health check
